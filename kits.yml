@@ -1,0 +1,509 @@
+---
+Starter:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "278:0:1:§b§lStarter§e Pickaxe:efficiency:2:unbreaking:3"
+  - "260:0:10:§l§cFOOD §e| §aApples"
+  - "276:0:1:§b§lStarter§d Sword:sharpness:1"
+  helmet: "diamond_helmet:0:1:§l§eStarter §bHelmet:protection:1"
+  chestplate: "diamond_chestplate:0:1:§l§eStarter §bChestplate:protection:1"
+  leggings: "diamond_leggings:0:1:§l§eStarter §bLeggings:protection:1"
+  boots: "diamond_boots:0:1:§l§eStarter §bBoots:protection:1"
+
+  commands:
+  - "tell {player} §bKit §aEqquipped"
+  - "broadcast §b{player} §eHas §aEquipped §7Kit §eStarter§b!"
+  - "givemoney {player} 250"
+  - "key common {player} 2"
+
+  cooldown:
+    hours: 2
+    minutes: 45
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:1000000:1"
+
+  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+
+Valor:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "278:0:1:§l§5Valor §dPickaxe:efficiency:3:unbreaking:2"
+  - "260:0:10:§l§5Valor §d| §aApples"
+  - "267:0:1:§l§5Valor §bSword:sharpness:1:knockback:1"
+  helmet: "diamond_helmet:0:1:§l§5Valor §dHelmet:protection:2"
+  chestplate: "diamond_chestplate:0:1:§l§5Valor §dChestplate:protection:2"
+  leggings: "diamond_leggings:0:1:§l§5Valor §bLeggings:protection:2"
+  boots: "diamond_boots:0:1:§l§5Valor §bBoots:protection:2"
+
+  commands:
+  - "tell {player} Kit Eqquipped!"
+  - "broadcast §d{player} §3Has §2Equipped §7Kit §5Valor!"
+  - "givemoney {player} 500"
+  - "key common {player} 4"
+
+  cooldown:
+    hours: 2
+    minutes: 30
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:1200000:1"
+
+# Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+
+Barbarian:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "278:0:1:§l§bBarbarian §ePickaxe:efficiency:3:unbreaking:10"
+  - "260:0:10:§l§bBarbarian §a| §eApples"
+  - "267:0:1:§l§bBarbarian §eSword:sharpness:2:knockback:1"
+  helmet: "diamond_helmet:0:1:§l§bBarbarian §eHelmet:protection:3"
+  chestplate: "diamond_chestplate:0:1:§l§bBarbarian §eChestplate:protection:3"
+  leggings: "diamond_leggings:0:1:§l§bBarbarian §eLeggings:protection:3"
+  boots: "diamond_boots:0:1:§l§bBarbarian §eBoots:protection:3"
+
+  commands:
+  - "tell {player} Kit Equipped!"
+  - "givemoney {player} 750"
+  - "broadcast §d{player} §7Has §eEquppied §5kit §bBarbarian§a!"
+  - "key common {player} 2"
+  - "key uncommon {player} 2"
+
+  cooldown:
+    hours: 2
+    minutes: 10
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:120:1"
+
+  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+
+Apprentice:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "278:0:1:§l§6Apprentice Pickaxe:efficiency:3:unbreaking:5"
+  - "260:0:10:Apples | Apprentice"
+  - "267:0:1:§l§6Apprentice Sword:sharpness:3:knockback:1"
+  helmet: "diamond_helmet:0:1:Gear:protection:3"
+  chestplate: "diamond_chestplate:0:1:Gear:protection:3"
+  leggings: "diamond_leggings:0:1:Gear:protection:3"
+  boots: "diamond_boots:0:1:Gear:protection:3"
+
+  commands:
+  - "tell {player} Kit Equipped!"
+
+  cooldown:
+    hours: 0
+    minutes: 30
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:120:1"
+
+  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+
+Ultimate:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "260:0:10:§l§cUltimate §r§aKit:efficiency:100:unbreaking:10:knockback:2"
+  - "267:0:1:§l§cUltimate §r§bSamurai §dSword:sharpness 18:unbreaking:20:knockback:3"
+  helmet: "diamond_helmet:0:1:§lcUltimate §eGear:protection:18"
+  chestplate: "diamond_chestplate:0:1:§cUltimate:protection:18"
+  leggings: "diamond_leggings:0:1:§l§cUltimate §aGear:protection:18"
+  boots: "diamond_boots:0:1:§l§cUltimate §aGear:protection:18"
+
+  commands:
+  - "tell {player} §l§cUltimate §bKit §r§7Has Been Claimed §6(§e90% §bGOD Kit§6)"
+  - "givemoney {player} 1100879"
+
+  cooldown:
+    hours: 0
+    minutes: 5
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:100:1"
+
+  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+...---
+starter:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "260:0:10:§dStarter Pickaxe:efficiency:2:unbreaking:10"
+  - "267:0:1:S§dStarter Weapon:sharpness:2:unbreaking:10:knockback:2"
+  helmet: "diamond_helmet:0:1:§dGear:protection:3"
+  chestplate: "diamond_chestplate:0:1:§dGear:protection:3"
+  leggings: "diamond_leggings:0:1:§dGear:protection:3"
+  boots: "diamond_boots:0:1:§dGear:protection:3"
+
+  commands:
+  - "tell {player} §dYour Kit§l §e[§r§aStarter§l§e]§r§d Has been Equipped §7(Search your inventory for the items)!"
+  - "givemoney {player} 1250"
+
+  cooldown:
+    hours: 0
+    minutes: 30
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:1000000:1"
+
+  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 10
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+
+Fury:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "260:0:10:§6Fury §cPickaxe:efficiency:10:unbreaking:100"
+  - "267:0:1:§6Fury §cWeapon:sharpness:6:knockback:2"
+  helmet: "diamond_helmet:0:1:§6Fury §cGear:protection:8"
+  chestplate: "diamond_chestplate:0:1:§6Fury §cGear:protection:8"
+  leggings: "diamond_leggings:0:1:§6Fury §cGear:protection:8"
+  boots: "diamond_boots:0:1:§6Fury §cGear §7(§dUltimate§7):protection:12"
+
+  commands:
+  - "tell {player} §4your kit §6§lFURY §r§cHas Been Equipped§7(Search within your inventory)"
+  - "givemoney {player} 10195"
+
+  cooldown:
+    hours: 0
+    minutes: 30
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:1200000:1"
+
+# Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+
+Warrior:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "260:0:10:Warrior Mining Tool:sharpness:1:efficiency:15:unbreaking:20"
+  - "267:0:1:Warrior Sword:sharpness:15"
+  helmet: "diamond_helmet:0:1:Gear:protection:10"
+  chestplate: "diamond_chestplate:0:1:Gear:protection:10"
+  leggings: "diamond_leggings:0:1:Gear:protection:10"
+  boots: "diamond_boots:0:1:Gear:protection:10"
+
+  commands:
+  - "tell {player} §dKit Claim §eSuccessfull!"
+  - "givemoney {player} 100000"
+
+  cooldown:
+    hours: 0
+    minutes: 30
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:120:1"
+
+  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+
+Master:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "260:0:10:Pickaxe §eTier§c: §bIII:efficiency:100:unbreaking:20"
+  - "267:0:1:Sword:sharpness:15"
+  helmet: "diamond_helmet:0:1:Gear:protection:15"
+  chestplate: "diamond_chestplate:0:1:Gear:protection:15"
+  leggings: "diamond_leggings:0:1:Gear:protection:15"
+  boots: "diamond_boots:0:1:Gear:protection:15"
+
+  commands:
+  - "tell {player} You got a Max Tier Kit!"
+
+  cooldown:
+    hours: 0
+    minutes: 10
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:120:1"
+
+  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+
+Ultimate:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+  # NO enchantments and NO custom name: "id:damage:count"
+
+  # ONLY custom name: "id:damage:count:custom name"
+
+  # ONLY enchantments: "id:damage:count:DEFAULT:enchantment1:level"
+  # Put DEFAULT in the name field
+  # You can put as many enchantments as you want like this: "id:damage:count:DEFAULT:enchantment1:level:enchantment2:level" etc.
+
+  # Enchantments AND custom name: "id:damage:count:custom name:enchantment1:level"
+  # You can put as many enchantments as you want like this: "id:damage:count:custom name:enchantment1:level:enchantment2:level" etc.
+
+  # You can write both numeric or string IDs
+  items:
+  - "260:0:10:§l§cUltimate §r§aKit:efficiency:100:unbreaking:100:knockback:2"
+  - "267:0:1:§l§cUltimate §r§bSamurai §dSword:sharpness 18:unbreaking:20:knockback:3"
+  helmet: "diamond_helmet:0:1:§lcUltimate §eGear:protection:18"
+  chestplate: "diamond_chestplate:0:1:§cUltimate:protection:18"
+  leggings: "diamond_leggings:0:1:§l§cUltimate §aGear:protection:18"
+  boots: "diamond_boots:0:1:§l§cUltimate §aGear:protection:18"
+
+  commands:
+  - "tell {player} §l§cUltimate §bKit §r§7Has Been Claimed §6(§e90% §bGOD Kit§6)"
+  - "givemoney {player} 1100879"
+
+  cooldown:
+    hours: 0
+    minutes: 5
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  - "speed:100:1"
+
+  # Add a cost for the kit. Compatible with EconomyAPI, PocketMoney and MassiveEconomy
+  # Put 0 if you want the kit to be free
+  money: 0
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  # Leave blank to let use the kit in all worlds
+  worlds:
+  - "kitpvp"
+
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  # Leave blank to let all the players use this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+...
